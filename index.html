@@ -2,34 +2,55 @@
     <title>MITCH READ SSMBB</title>
     <body>
         <header><h1>MITCH READ SSMBB</h1></header>
-    
-        <p>I am currently an Product Development Engineer at Treace Medical Concepts. I develop the procedures surgical technique and accompanying implants and instrumentation for bunion correction surgery. </p>
-
-        <p>I received a B.S. in Mechanical Engineering with a concentration in Mechanical Design from Worcester Polytechnic Institute (WPI) in 2019 and am currently pursing an M.S. in Mechanical Engineering with a focus in Mechanical Design at WPI. I have a strong passion for mechanical engineering.</p>
-
-        <p>This website contains projects that I have worked on as well as what I have learned from these projects. See the “about” section for the most recent copy of my resume and contact information.</p>
     </body>  
     
+    <body class="aboutme">
+        <div class="containeraboutme">
+            <img src="profile.jpg" alt="Image of Mitch">
+            <div class="aboutmetext">
+                I am currently an Product Development Engineer at Treace Medical Concepts. I develop the procedures surgical technique and accompanying implants and instrumentation for bunion correction surgery.
+                I received a B.S. in Mechanical Engineering with a concentration in Mechanical Design from Worcester Polytechnic Institute (WPI) in 2019 and am currently pursing an M.S. in Mechanical Engineering with a focus in Mechanical Design at WPI. I have a strong passion for mechanical engineering.
+                This website contains projects that I have worked on as well as what I have learned from these projects. To learn more about my experiences check out my <a href="resume.html">resume.</a></div>   
+        </div>
+    </body>
+    <style>
+        .containeraboutme {
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 150px;
+            padding: 8px;
+        }
+        img {
+            float: left;
+            width: 300px;
+            padding: 0 10px 0 0;
+        }
+        .aboutme {
+            align-content: center;
+        }
+        .aboutmetext {
+            text-align: justify;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    </style>
+    
+   
     <section class="job experience">
         <div id="container">
-            <div><p class="position">PRODUCT DEVELOPMENT ENGINEER</p>
+            <div><p class="job">PRODUCT DEVELOPMENT ENGINEER</p>
                     <p class="company">Treace Medical Concepts</p> 
                     <p class="years">2021 - Current</p>
-                    <p class="job desc">Developed implants and instrumentation to assist in Bunion correction surgery</p>
-                </div> 
+                    <p class="jobdesc">Developed implants and instrumentation to assist in Bunion correction surgery</p></div> 
         
-            <div><p class="position">R&D ENGINEER (NPD)</p>
+            <div><p class="job">RESEARCH AND DEVELOPMENT ENGINEER (NPD)</p>
                     <p class="company">DePuy Synthes</p>
                     <p class="years">2019 - 2021</p>
-                    <p class="job desc">Developed arthroscopic instrumentation</p>
-                </div>     
+                    <p class="jobdesc">Developed arthroscopic instrumentation</p></div>     
         
-            <div><p class="position">ADVANCED MANUFACTURING ENGINEER</p>
+            <div><p class="job">ADVANCED MANUFACTURING ENGINEER</p>
                     <p class="company">MedRobotics Corporation</p>
                     <p class="years">2015 - 2019</p>
-                    <p class="job desc">Assisted in the further development of the Flex Robotics System, focusing on DFM and DFA.</p>
-                </div>            
-           </section>           
+                    <p class="jobdesc">Assisted in the further development of the Flex Robotics System, focusing on DFM and DFA.</p></div>            
+    </section>           
        <style>
             #container {
                 display: flex;
@@ -37,10 +58,6 @@
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 justify-content: space-around;
                 margin-top: 50px;
-            }
-            .position {
-                font-weight: bold;
-                font-size: 20px;
             }
             .company {
                 font-size: 13px;  
@@ -51,13 +68,15 @@
                 margin-top: 1px;
                 margin-bottom: 1px;
             }
-            .job desc {
+            .jobdesc {
                 font-size: 17px;
+                text-align: justify;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
         </style>
-
-        <p class="moreinfo">To learn more check out my <a href="resume.html">resume!</a></p>
-
+        
         <style>
             .moreinfo {
                 text-align: center;
@@ -67,16 +86,19 @@
             
         </style>
 
+
+        <p class="whatido">I have worked on many projects throughout my professional career. These projects have ranged from improving an existing design to creating a whole procedure including implants and instrumentation from initial concept. I have worked on both electro-mechanical and standard mechanical designs.  I have lead cross-functional teams through all the phases of a product launch including the FDA submission process. To learn about my what I have worked on check out my <a href="professional projects.html">projects.</a></p> 
+
             <div id="container" class="projects">
                 <div><p class="iamgecaption"><a href="professional projects.html">MITEK MICRO TORNADO HANDPIECE 2.0</a></p>
                         <img src="microtornadohandpiece.jpg" height="250px">
                     </div> 
 
-                <div><p class="imagecaption"><a href="professional projects.html">MEDROBOTICS FLEX ROBOTICS SYSTEM</a></p>
-                        <img src="flexrobotics.jpg" height="250px">
-                    </div>     
                 <div><p class="imagecaption"><a href="professional projects.html">MITEK SHAVER BLADE & BURR SYSTEM</a></p>
                         <img src="shavershedding.jpg" height="250px">
+                    </div>     
+                <div><p class="imagecaption"><a href="professional projects.html">MEDROBOTICS FLEX ROBOTICS SYSTEM</a></p>
+                        <img src="flexrobotics.jpg" height="250px">
                     </div> 
 
         <style>
@@ -92,5 +114,10 @@
                 margin-left: 75px;
                 margin-right: 75px;
             }
+            .whatido {
+                text-align: justify;
+                margin-right: 100px;
+                margin-left: 100px;
+            }      
         </style>
 </html>
